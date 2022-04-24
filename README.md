@@ -26,12 +26,12 @@ In this image, best number of clusters is 5 as each object is defined well in al
 ### Image 2
 In this image, number of clusters is 3 as each object is defined well in all color spaces
 
-![Image 2](./output/color.png)
+![Image 2](color.png)
 
 The num of clusters of 4 resulted in distinct colors for each object as well as the background, however it didn't work the same all the times and some color spaces didn't give output as shown below.
 
-![Image 22](./output/color2.png)
-![Image 22](./output/color3.png)
+![Image 22](color2.png)
+![Image 22](color3.png)
 
 Also, the output, of the color space of HSV in 4 clusters, isn't satisfying.
 
@@ -39,7 +39,7 @@ Also, the output, of the color space of HSV in 4 clusters, isn't satisfying.
 ### Image 3
 In this image, best number of clusters is 3 as each object is defined well in all color spaces.
 
-![Image 3](./output/image3.png)
+![Image 3](image3.png)
 
 ---
 ## Gray Image
@@ -51,11 +51,11 @@ In this image, best number of clusters is 3 as each object is defined well in al
 3- Apply FCM on the image with num of clusters = 2
 
 ### Output
-![Image 4](./output/coins.png)
+![Image 4](coins.png)
 
 When we tried to enhance the image and adjust the contrast, the output wasn't satisfying compared to the output beore enhancement as show below. 
 
-![Image 5](./output/gray.png) ![Image 6](./output/coins1.png)
+![Image 5](gray.png) ![Image 6](./output/coins1.png)
 
 ---
 
@@ -70,7 +70,7 @@ EM is then used which estimates the mixture model’s parameters (means, varianc
 ### Expectation Step
 Calculate the probability that a data point 𝑥𝑖 belongs to each cluster using this equation of Bayes' theorem:
 
-![Image 11](./output/1.jpg) 
+![Image 11](1.jpg) 
 
 ``` python
 def pdf(data, mean: float, variance: float):
@@ -86,7 +86,7 @@ print(likelihood.shape)
 ### Maximization Step
 Based on the estimated values, generated in Expectation step, update the means, variaces, weights of each cluster, till it fits the original data means, and variances.
 
-![Image 11](./output/2.jpg)
+![Image 11](2.jpg)
 ``` python
 b = []
 
@@ -105,7 +105,7 @@ The algorithm takes **0.9914393424987793** seconds without saving figures after 
 For showing each step figure, it took **21.164411067962646** seconds
 
 ### Final Output
-![Image 7](./output/img_24.png) 
+![Image 7](img_24.png) 
 
 ---
 
@@ -134,7 +134,7 @@ for j in range(k):
         assert means.shape == (k, X.shape[1])
 ```
 ### Output
-![Image 8](./output/img_391.png) 
+![Image 8](img_391.png) 
 
 ### Algorithm Time
 The algorithm takes **0.40268397331237793** seconds without saving figures after each update. However, it takes **15.313929080963135** seconds after saving each figure step. 
@@ -145,7 +145,7 @@ For showing each step figure, it took **22.190564393997192** seconds
 ## 2D-EM VS. GMM by Scikit-Learn
 The Gaussian Mixture Model provided by scikit-learn takes **0.18382954597473145** seconds, which is less than the time required to run the algorithm from scratch. In addition, the output is more accurate and pleasing when visualising, as the output of the model implemented from scratch wasn't always correct as shown below.
 
-![Image 9](./output/GaussianMixture.png) ![Image 10](./output/img_39.png) 
+![Image 9](GaussianMixture.png) ![Image 10](./output/img_39.png) 
 
 ## Conclusion
 Gaussian Mixture Model provided by scikit-learn works better and faster than the model implemented from scratch.
