@@ -19,7 +19,7 @@ Ex. Num of clusters of the woman image is 5, so the output of labels array, whos
 ### Image 1
 In this image, best number of clusters is 5 as each object is defined well in all color spaces.
 
-![Image 1](./output/woman.png)
+![Image 1](woman.png)
 
 ---
 
