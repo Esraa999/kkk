@@ -55,7 +55,7 @@ In this image, best number of clusters is 3 as each object is defined well in al
 
 When we tried to enhance the image and adjust the contrast, the output wasn't satisfying compared to the output beore enhancement as show below. 
 
-![Image 5](gray.png) ![Image 6](./output/coins1.png)
+![Image 5](gray.png) ![Image 6](coins1.png)
 
 ---
 
