@@ -26,9 +26,9 @@ err = abs(IMG(Xn,Yn) - MeanValue);
 | Thresholds | 4 Neighborhood Connectivity |8 Neighborhood Connectivity |
 | :---        |    :----:   |          ---: |
 | 10      | ![Image 3](GS_thr10_4.JPG) | ![Image 3](GS_thr10_8.JPG) |
-| 40   | ![Image 3](GS_thr40_4.JPG)| ![Image 3](Captures/GS_thr40_8.JPG) |
-| 45   | ![Image 3](Captures/GS_thr45_4.JPG)| ![Image 3](Captures/GS_thr45_8.JPG) |
-| 60   | ![Image 3](Captures/GS_thr60_4.JPG)| ![Image 3](Captures/GS_thr60_8.JPG) |
+| 40   | ![Image 3](GS_thr40_4.JPG)| ![Image 3](GS_thr40_8.JPG) |
+| 45   | ![Image 3](Captures/GS_thr45_4.JPG)| ![Image 3](GS_thr45_8.JPG) |
+| 60   | ![Image 3](Captures/GS_thr60_4.JPG)| ![Image 3](GS_thr60_8.JPG) |
 
 
 Based on the results in the table above, we can see that the best threshold using **4 Neighborhood Connectivity** is 45, as each coin is with a separate color, while the best threshold using **8 Neighborhood Connectivity** is 40.
