@@ -7,7 +7,7 @@ It is a pixel-based image segmentation method that involves exploring the neighb
 * Initialise a seed number that is incremented by one each time a new region is indicated.
 * Explore neighbouring pixels of current pixel and assign them the current seed number if the **error** function is less than the defined threshold.
 
-    ![Image 1](./Captures/Capture.JPG)
+    ![Image 1](Capture.JPG)
 
 * Keep exploring the neighbours of neighbouring pixels, until the value of error function is greater than the threshold.
 * If the value of error function is greater than the threshold, increment the seed number by one and repeat the steps above.
@@ -25,10 +25,10 @@ err = abs(IMG(Xn,Yn) - MeanValue);
 ## Results
 | Thresholds | 4 Neighborhood Connectivity |8 Neighborhood Connectivity |
 | :---        |    :----:   |          ---: |
-| 10      | ![Image 3](./Captures/GS_thr10_4.JPG) | ![Image 3](./Captures/GS_thr10_8.JPG) |
-| 40   | ![Image 3](./Captures/GS_thr40_4.JPG)| ![Image 3](./Captures/GS_thr40_8.JPG) |
-| 45   | ![Image 3](./Captures/GS_thr45_4.JPG)| ![Image 3](./Captures/GS_thr45_8.JPG) |
-| 60   | ![Image 3](./Captures/GS_thr60_4.JPG)| ![Image 3](./Captures/GS_thr60_8.JPG) |
+| 10      | ![Image 3](GS_thr10_4.JPG) | ![Image 3](GS_thr10_8.JPG) |
+| 40   | ![Image 3](GS_thr40_4.JPG)| ![Image 3](Captures/GS_thr40_8.JPG) |
+| 45   | ![Image 3](Captures/GS_thr45_4.JPG)| ![Image 3](Captures/GS_thr45_8.JPG) |
+| 60   | ![Image 3](Captures/GS_thr60_4.JPG)| ![Image 3](Captures/GS_thr60_8.JPG) |
 
 
 Based on the results in the table above, we can see that the best threshold using **4 Neighborhood Connectivity** is 45, as each coin is with a separate color, while the best threshold using **8 Neighborhood Connectivity** is 40.
