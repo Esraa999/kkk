@@ -27,8 +27,8 @@ err = abs(IMG(Xn,Yn) - MeanValue);
 | :---        |    :----:   |          ---: |
 | 10      | ![Image 3](GS_thr10_4.JPG) | ![Image 3](GS_thr10_8.JPG) |
 | 40   | ![Image 3](GS_thr40_4.JPG)| ![Image 3](GS_thr40_8.JPG) |
-| 45   | ![Image 3](Captures/GS_thr45_4.JPG)| ![Image 3](GS_thr45_8.JPG) |
-| 60   | ![Image 3](Captures/GS_thr60_4.JPG)| ![Image 3](GS_thr60_8.JPG) |
+| 45   | ![Image 3](GS_thr45_4.JPG)| ![Image 3](GS_thr45_8.JPG) |
+| 60   | ![Image 3](GS_thr60_4.JPG)| ![Image 3](GS_thr60_8.JPG) |
 
 
 Based on the results in the table above, we can see that the best threshold using **4 Neighborhood Connectivity** is 45, as each coin is with a separate color, while the best threshold using **8 Neighborhood Connectivity** is 40.
@@ -40,10 +40,10 @@ Based on the results in the table above, we can see that the best threshold usin
 ## Results
 | Thresholds | 4 Neighborhood Connectivity |8 Neighborhood Connectivity |
 | :---        |    :----:   |          ---: |
-| 10      | ![Image 3](./Captures/GS2_thr10_4.JPG) | ![Image 3](./Captures/GS2_thr10_8.JPG) |
-| 20   | ![Image 3](./Captures/GS2_thr20_4.JPG)| ![Image 3](./Captures/GS2_thr20_8.JPG) |
-| 30   | ![Image 3](./Captures/GS2_thr30_4.JPG)| ![Image 3](./Captures/GS2_thr30_8.JPG) |
-| 40   | ![Image 3](./Captures/GS2_thr40_4.JPG)| ![Image 3](./Captures/GS2_thr40_8.JPG) |
+| 10      | ![Image 3](GS2_thr10_4.JPG) | ![Image 3](GS2_thr10_8.JPG) |
+| 20   | ![Image 3](GS2_thr20_4.JPG)| ![Image 3](GS2_thr20_8.JPG) |
+| 30   | ![Image 3](GS2_thr30_4.JPG)| ![Image 3](GS2_thr30_8.JPG) |
+| 40   | ![Image 3](GS2_thr40_4.JPG)| ![Image 3](GS2_thr40_8.JPG) |
 
 
 Based on the results in the table above, we can see that the best threshold using **4 Neighborhood Connectivity** is 30, as each coin is with a separate color, while the best threshold using **8 Neighborhood Connectivity** is 20.
@@ -80,10 +80,10 @@ err =sqrt((Temp(1)-MeanValue(1))^2+(Temp(2)-MeanValue(2))^2+(Temp(3)-MeanValue(3
 ## Results
 | Thresholds | 4 Neighborhood Connectivity |8 Neighborhood Connectivity |
 | :---        |    :----:   |          :---: |
-| 50   | ![Image 3](./Captures/TH50.png)| ![Image 3](./Captures/TH50_8px.png) |
-| 100      | ![Image 3](./Captures/TH100.png) | ![Image 3](./Captures/TH100_8px.png) |
-| 150   | ![Image 3](./Captures/TH150.png)| ![Image 3](./Captures/TH150_8.png) |
-| 200   | ![Image 3](./Captures/TH200.png)| ![Image 3](./Captures/TH200_8px.png) |
+| 50   | ![Image 3](TH50.png)| ![Image 3](TH50_8px.png) |
+| 100      | ![Image 3](TH100.png) | ![Image 3](TH100_8px.png) |
+| 150   | ![Image 3](TH150.png)| ![Image 3](TH150_8.png) |
+| 200   | ![Image 3](TH200.png)| ![Image 3](TH200_8px.png) |
 
 
 
@@ -97,10 +97,10 @@ Based on the results in the table above, we can see that the best threshold usin
 ## Results
 | Thresholds | 4 Neighborhood Connectivity |8 Neighborhood Connectivity |
 | :---        |    :----:   |          ---: |
-| 10      | ![Image 3](./Captures/Wthr10_4.png) | ![Image 3](./Captures/Wthr10_8.png) |
-| 35   | ![Image 3](./Captures/Wthr35_4.png)| ![Image 3](./Captures/Wthr35_8.png) |
-| 50   | ![Image 3](./Captures/Wthr50_4.png)| ![Image 3](./Captures/Wthr50_8.png) |
-| 70   | ![Image 3](./Captures/Wthr70_4.png)| ![Image 3](./Captures/Wthr70_8.png) |
+| 10      | ![Image 3](Wthr10_4.png) | ![Image 3](Wthr10_8.png) |
+| 35   | ![Image 3](Wthr35_4.png)| ![Image 3](Wthr35_8.png) |
+| 50   | ![Image 3](Wthr50_4.png)| ![Image 3](Wthr50_8.png) |
+| 70   | ![Image 3](Wthr70_4.png)| ![Image 3](Wthr70_8.png) |
 
 
 Based on the results in the table above, we can see that the best threshold using **4 Neighborhood Connectivity** is 50, as each part form her body has diffirent color, while the best threshold using **8 Neighborhood Connectivity** is 35.
@@ -112,10 +112,10 @@ Based on the results in the table above, we can see that the best threshold usin
 ## Results
 | Thresholds | 4 Neighborhood Connectivity |8 Neighborhood Connectivity |
 | :---        |    :----:   |          ---: |
-| 0   | ![Image 3](./Captures/Cthr0_4.png)| ![Image 3](./Captures/Cthr0_8.png) |
-| 2   | ![Image 3](./Captures/Cthr2_4.png)| ![Image 3](./Captures/Cthr2_8.png) |
-| 6   | ![Image 3](./Captures/Cthr6_4.png)| ![Image 3](./Captures/Cthr6_8.png) |
-| 10      | ![Image 3](./Captures/Cthr10_4.png) | ![Image 3](./Captures/Cthr10_8.png) |
+| 0   | ![Image 3](Cthr0_4.png)| ![Image 3](Cthr0_8.png) |
+| 2   | ![Image 3](Cthr2_4.png)| ![Image 3](Cthr2_8.png) |
+| 6   | ![Image 3](Cthr6_4.png)| ![Image 3](Cthr6_8.png) |
+| 10      | ![Image 3](Cthr10_4.png) | ![Image 3](/Cthr10_8.png) |
 
 
 
